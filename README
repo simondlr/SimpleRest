@@ -1,0 +1,20 @@
+::SimpleRest::
+by Simon de la Rouviere
+
+SimpleRest is a very basic, lightweight JSON REST server in PHP. The idea of it is to show how a basic REST server functions coming from a knowledge of basic HTML.
+
+Just drop SimpleRest onto (almost) any PHP-enable server and it should work out of the box.
+
+Currently it only consists of 'GET' and 'POST'. These headers are used most often and some hosting companies block any other requests.
+
+Testing it:
+
+Currently, there are no test suites, so testing it involves using curl. Example:
+
+//
+curl -i -H "Accept: application/json" api.example.com/user/simon
+//
+
+The SimpleRest class is adapted from RestUtils. There is a great tutorial at http://www.gen-x-design.com/archives/create-a-rest-api-with-php/.
+
+
