@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Simplerest : Basic lightweight JSON-based REST server" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Simplerest</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/simondlr/SimpleRest">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Simplerest</h1>
+          <h2 id="project_tagline">Basic lightweight JSON-based REST server</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/simondlr/SimpleRest/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/simondlr/SimpleRest/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>::SimpleRest::
+by Simon de la Rouviere</p>
+
+<p>SimpleRest is a very basic, lightweight JSON REST server in PHP. The idea of it is to show how a basic REST server functions coming from a knowledge of basic HTML.</p>
+
+<p>Just drop SimpleRest onto (almost) any PHP-enable server and it should work out of the box.</p>
+
+<p>Currently it only consists of 'GET' and 'POST'. These headers are used most often and some hosting companies block any other requests.</p>
+
+<p>Testing it:</p>
+
+<p>Currently, there are no test suites, so testing it involves using curl. Example:</p>
+
+<p>//
+curl -i -H "Accept: application/json" api.example.com/user/simon
+//</p>
+
+<p>The SimpleRest class is adapted from RestUtils. There is a great tutorial at <a href="http://www.gen-x-design.com/archives/create-a-rest-api-with-php/">http://www.gen-x-design.com/archives/create-a-rest-api-with-php/</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Simplerest maintained by <a href="https://github.com/simondlr">simondlr</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
